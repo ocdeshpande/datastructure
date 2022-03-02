@@ -27,7 +27,7 @@ public class FindPairWithSumCloseToX {
 
 		Scanner sc = new Scanner(System.in); // System.in is a standard input stream.
 		System.out.print("Enter a number: ");
-		int num = sc.nextInt(); // reads string.
+		int num = sc.nextInt(); // reads int.
 		oldSum = inputArry[0] + inputArry[1];
 
 		// Two for loops to iterate one element with rest array
